@@ -1,6 +1,6 @@
 # Rimworld Mod Template
 
-This template is intented to modding rimworld in [Visual Studio Code](https://code.visualstudio.com/).
+This template is intented for modding rimworld in [Visual Studio Code](https://code.visualstudio.com/).
 
 Both Windows and Linux are supported.
 
