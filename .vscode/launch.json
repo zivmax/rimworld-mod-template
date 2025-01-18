@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Rimworld Mod Project (Linux)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build dll linux",
+            "args": [],
+            "program": "../../RimWorldLinux",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": true
+        },
+        {
+            "name": "Rimworld Mod Project (Win64)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build dll windows",
+            "args": [],
+            "program": "..\\..\\RimWorldWin64.exe",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": true
+        }
+    ]
+}
