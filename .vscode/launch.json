@@ -2,7 +2,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Rimworld Mod Project (Linux)",
+            "name": "Debug-Linux",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build dll linux",
@@ -14,7 +14,7 @@
             "stopAtEntry": true
         },
         {
-            "name": "Rimworld Mod Project (Win64)",
+            "name": "Debug-Win64",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build dll windows",
